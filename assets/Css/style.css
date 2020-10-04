@@ -1,0 +1,117 @@
+.nav{
+  background-color: blue;
+}
+
+.nav ul{
+  display: inline;
+  vertical-align: 120px;
+}
+
+.nav li{
+  display: inline;
+  padding: 50px;
+}
+
+.nav a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover{
+  color: greenyellow;
+  font-size: 22px;
+}
+
+.space{
+  margin-top: 100px;
+}
+
+.statscont{
+  text-align: center;
+  position: relative;
+}
+
+.statshead{
+position: absolute;
+top: 8px;
+left: 30%;
+
+}
+
+.statshead p{
+  display: inline;
+  padding-right: 50px;
+}
+
+.statsvalue{
+  position: absolute;
+  top: 35px;
+  left: 29%;
+}
+
+.statsvalue p{
+  display: inline;
+  font-size: 60px;
+  padding-right: 60px;
+  color: whitesmoke;
+}
+
+.container2{
+  text-align: center;
+}
+
+.contpara{
+  font-family: Arial, Helvetica, sans-serif;
+  border: red;
+  border-width: 10px;
+  color: black;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+.contpara span{
+  color: white;
+  background-color: gray;
+  max-width: 640px;
+}
+
+.contpara p{
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.paragraph h6{
+  text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.paragraph p{
+  font-size: 20px;
+}
+
+.slideshow-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
